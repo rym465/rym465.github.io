@@ -1,0 +1,166 @@
+body{
+	margin: 10px;
+	font-family: "raleway", "sans-serif";
+/*	background-color:#304B5F;*/
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#365061+0,cfe7fa+62 */
+background: rgb(54,80,97); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(54,80,97,1) 0%, rgba(207,231,250,1) 62%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(54,80,97,1) 0%,rgba(207,231,250,1) 62%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(54,80,97,1) 0%,rgba(207,231,250,1) 62%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#365061', endColorstr='#cfe7fa',GradientType=0 ); /* IE6-9 */
+}
+
+/*Bootstrap Grids*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.content{
+	background-color: white;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 5%;
+	padding: 10px;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 2px;
+	border-style: solid;
+}
+
+/*warnings and messages*/
+span{
+	color: red;
+	font-weight: 900;
+}
+
+/*mission statement*/
+.mission{
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: justify;
+}
+
+.logo{
+	background-color: #304B5F;
+	display: block;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	border-radius: 2px;
+
+}
+
+.menu2 a{
+	display: inline-block;
+	margin-top: 0px;
+	float: right;
+	text-align: right;
+	color: black;
+	padding: 10px;
+	text-transform: uppercase;
+	font-size: small;
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+	/*color: red;*/
+	padding: 5px;
+	text-align: right;
+
+}
+
+a:hover { 
+   border-style: solid;
+   border-color: black;
+   border-width: 1px;
+   border-radius:2px;
+  /* opacity: .9;*/
+    box-shadow: 5px 5px 5px #efc6a0;
+   /* background-color: #EFD1B6;*/
+
+}
+
+li{
+	display: block;
+	text-align: right;
+	text-transform: uppercase;
+	font-size: small;
+	text-decoration: none;
+}
+
+.jumbotron{
+	background-image: url(../images/jumbotron2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 450px;
+	margin-top: 5px;
+	/*padding: 20px;*/
+	padding-bottom: 15%;
+	background-attachment: fixed;
+	background-position: center center;
+	image-rendering: -webkit-optimize-contrast;
+	border-width: 1px;
+	border-color: black;
+	border-style:solid;
+	border-radius: 5px;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px);
+{}
+
+.col-sm-4{
+	text-align: center;
+	/*horizontal-align: center;*/
+	text-decoration: none;
+	padding-top: 3%;
+	padding-bottom: 2%;
+	color:white;
+}
+.row{
+	border-width: 1px;
+	border-color: black;
+	border-style:solid;
+	background-color: #304B5F;
+}
+
+/*Text about Services*/
+p{
+	text-align: justify;
+}
+
+.container-fluid .row .col-sm-4 .img-responsive p{
+	display: inline-block;
+	width: 33%;
+	border-width: 1px;
+	
+}
+
+.img-responsive {
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 2%;	
+	box-shadow: 3px 3px 5px black;
+	margin-bottom: 10px;
+}
+
+
+.footer{
+	margin-bottom: 1px;
+	
+}
+
+
+
