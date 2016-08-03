@@ -246,7 +246,7 @@ p{
 }
 
 tr:hover {
-	background-color: grey;
+	background-color: #f2c48c;
 }
 
 table {
@@ -260,7 +260,14 @@ th, td {
     border-bottom: 1px solid #ddd;
 }
 
+h2{
+	text-align: left;
+	font-size: 2em;
+}
+
 
 .vsAlpha{
 	text-align: center;
-	font-size: 18px;
+	font-size: 22px;
+	text-decoration: none;
+}
